@@ -1,0 +1,46 @@
+.task-item {
+  display: flex;
+  justify-content: space-between; /* pushes text left, buttons right */
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.actions {
+  display: flex;
+  gap: 8px; /* space between Delete & Check buttons */
+}
+
+.check-button {
+  width: 25px;
+  height: 25px;
+  border: 2px solid black;
+  cursor: pointer;
+  background-color: white;  /* default */
+  color: black;
+  font-size: 16px;
+}
+
+.check-button.checked {
+  background-color: lightgreen; /* when completed */
+  color: white;
+}
+
+.delete-button {
+  padding: 4px 8px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.add-button {
+  margin-left: 8px;
+  padding: 4px 8px;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+

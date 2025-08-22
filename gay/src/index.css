@@ -1,0 +1,66 @@
+.to-do-list {
+  max-width: 400px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.to-do-list ol {
+  list-style: decimal inside;
+  padding: 0;
+}
+
+.to-do-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: black; 
+  color: white;            
+  transition: background-color 0.3s ease;
+}
+
+
+.to-do-list li.completed {
+  background-color: grey;
+  color: white;  
+}
+
+.to-do-list .text {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: crimson;
+  color: white;
+}
+
+.check-button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+.input-box{
+  width:80%;
+  margin:8px
+  height 20px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.add-button{
+  height: 40px;
+  padding: 10px;
+  border-radius: 8px;
+}
+  
+
